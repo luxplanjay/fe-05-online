@@ -168,10 +168,16 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 0;
 }
 
 .team-list-socials li {
   display: inline-block;
+  margin-right: 4px;
+}
+
+.team-list-socials li:last-child {
+  margin-right: 0;
 }
 
 .team-list-socials a {
