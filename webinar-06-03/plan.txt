@@ -10,4 +10,4 @@
 - CSS-градиенты.
 - CSS-фильтры.
 - CSS-счетчики.
-- Функции calc и attr.
+- CSS-тени: text-shadow и box-shadow
