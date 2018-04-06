@@ -1,0 +1,24 @@
+.page-footer {
+  color: #fff;
+  background-color: #3a3e64;
+}
+
+.page-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 246px;
+}
+
+.download-button {
+  border: none;
+  margin: 0;
+  padding: 14px 82px;
+  background-color: #e84545;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
