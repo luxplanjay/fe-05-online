@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.site-nav {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  background-color: palevioletred;
+}
+
+.logo {
+  display: block;
+  background-color: teal;
+}
+
+.about {
+  background-color: #ccc;
+}
+
+/* MEDIA */
+
+@media (max-width: 767px) {
+  .about .row > [class*='col-']:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about .row > [class*='col-']:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .masthead .row > [class*='col-']:first-child {
+    margin-bottom: 20px;
+  }
+}
