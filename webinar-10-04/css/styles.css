@@ -20,6 +20,14 @@ img {
   height: auto;
 }
 
+.masthead {
+  margin-bottom: 30px;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+
 .site-nav {
   list-style: none;
   display: flex;
