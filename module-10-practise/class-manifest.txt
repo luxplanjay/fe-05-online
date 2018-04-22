@@ -1,0 +1,46 @@
+link
+
+page-header
+
+page-nav
+
+container
+
+site-logo
+  site-logo__img
+
+site-navigation
+  site-navigation__item
+  site-navigation__link
+
+
+banner
+
+slider
+  slider__list
+  slider__control
+    slider__control--next
+    slider__control--prev
+
+section
+  section__title
+  section__list
+
+features
+  features__item
+  features__icon
+    features__icon--tools
+  features__item-title
+  features__item-text
+
+team
+  team__item
+  team__item-img
+  team__item-name
+  team__item-occupation
+  team__item-about
+
+socials
+  socials__item
+  socials__link
+  socials__icon
