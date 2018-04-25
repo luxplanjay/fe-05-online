@@ -18,32 +18,16 @@
     background-position: center;
     background-size: contain;
   }
-
-  // TODO: попробовать использовать миксин с циклом для иконок
-  &--tools::before {
-    background-image: url('../img/icons/features/icon-tools.png');
-  }
-
-  &--computer::before {
-    background-image: url('../img/icons/features/icon-computer.png');
-  }
-
-  &--bulb::before {
-    background-image: url('../img/icons/features/icon-bulb.png');
-  }
-
-  &--atom::before {
-    background-image: url('../img/icons/features/icon-atom.png');
-  }
-
-  &--case::before {
-    background-image: url('../img/icons/features/icon-case.png');
-  }
-
-  &--download::before {
-    background-image: url('../img/icons/features/icon-download.png');
-  }
 }
+
+$icons: tools, computer, bulb, atom, case, download;
+
+@include generate-pseudo-icons(
+  'features__icon--',
+  $icons,
+  '../img/icons/features/icon-',
+  'png'
+);
 
 .features__item-title {
   margin-bottom: 24px;

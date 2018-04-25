@@ -585,27 +585,27 @@ img {
 }
 
 .features__icon--tools::before {
-  background-image: url("../img/icons/features/icon-tools.png");
+  background-image: url(../img/icons/features/icon-tools.png);
 }
 
 .features__icon--computer::before {
-  background-image: url("../img/icons/features/icon-computer.png");
+  background-image: url(../img/icons/features/icon-computer.png);
 }
 
 .features__icon--bulb::before {
-  background-image: url("../img/icons/features/icon-bulb.png");
+  background-image: url(../img/icons/features/icon-bulb.png);
 }
 
 .features__icon--atom::before {
-  background-image: url("../img/icons/features/icon-atom.png");
+  background-image: url(../img/icons/features/icon-atom.png);
 }
 
 .features__icon--case::before {
-  background-image: url("../img/icons/features/icon-case.png");
+  background-image: url(../img/icons/features/icon-case.png);
 }
 
 .features__icon--download::before {
-  background-image: url("../img/icons/features/icon-download.png");
+  background-image: url(../img/icons/features/icon-download.png);
 }
 
 .features__item-title {
@@ -707,4 +707,30 @@ img {
   align-items: center;
   justify-content: space-between;
   min-height: 246px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .features__icon--tools::before {
+    background-image: url(../img/icons/features/icon-tools@2px.png);
+  }
+
+  .features__icon--computer::before {
+    background-image: url(../img/icons/features/icon-computer@2px.png);
+  }
+
+  .features__icon--bulb::before {
+    background-image: url(../img/icons/features/icon-bulb@2px.png);
+  }
+
+  .features__icon--atom::before {
+    background-image: url(../img/icons/features/icon-atom@2px.png);
+  }
+
+  .features__icon--case::before {
+    background-image: url(../img/icons/features/icon-case@2px.png);
+  }
+
+  .features__icon--download::before {
+    background-image: url(../img/icons/features/icon-download@2px.png);
+  }
 }
